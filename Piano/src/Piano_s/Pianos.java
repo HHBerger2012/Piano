@@ -13,6 +13,8 @@ import java.awt.event.ActionEvent;
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.UIManager;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Pianos
 	{
@@ -53,7 +55,15 @@ public class Pianos
 				btnNewButton_1.setFont(new Font("Tw Cen MT Condensed", Font.BOLD, 15));
 				btnNewButton_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68446__pinkyfinger__piano-f.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					}
 				});
@@ -63,6 +73,15 @@ public class Pianos
 				JButton btnA_2 = new JButton("");
 				btnA_2.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68439__pinkyfinger__piano-bb.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					
 					}
@@ -76,7 +95,15 @@ public class Pianos
 				JButton btnG_2 = new JButton("");
 				btnG_2.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68448__pinkyfinger__piano-g.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 					
 					}
 				});
@@ -89,7 +116,15 @@ public class Pianos
 				JButton btnF = new JButton("");
 				btnF.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68446__pinkyfinger__piano-f.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					}
 				});
@@ -103,7 +138,15 @@ public class Pianos
 				btnD_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68444__pinkyfinger__piano-eb.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 					}
 				});
 				btnD_1.setForeground(UIManager.getColor("Button.background"));
@@ -115,7 +158,15 @@ public class Pianos
 				JButton btnC_1 = new JButton("");
 				btnC_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68441__pinkyfinger__piano-c.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					}
 				});
@@ -128,7 +179,15 @@ public class Pianos
 				JButton btnA_1 = new JButton("");
 				btnA_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68439__pinkyfinger__piano-bb.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					}
 				});
@@ -141,7 +200,15 @@ public class Pianos
 				JButton btnG_1 = new JButton("");
 				btnG_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
-						
+						try {
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68448__pinkyfinger__piano-g.wav").getAbsoluteFile());
+					        Clip clip = AudioSystem.getClip();
+					        clip.open(audioInputStream);
+					        clip.start();
+					    } catch(Exception ex) {
+					        System.out.println("Error with playing sound.");
+					        ex.printStackTrace();
+					    }
 						
 					}
 				});
@@ -155,7 +222,7 @@ public class Pianos
 				btnA.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("A.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68437__pinkyfinger__piano-a.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
@@ -175,7 +242,7 @@ public class Pianos
 				btnB.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("B.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68438__pinkyfinger__piano-b.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
@@ -279,7 +346,7 @@ public class Pianos
 				button_1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("G.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68447__pinkyfinger__piano-g.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
@@ -300,7 +367,7 @@ public class Pianos
 				button_2.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("A.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68437__pinkyfinger__piano-a.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
@@ -320,7 +387,7 @@ public class Pianos
 				button_3.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("B.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68438__pinkyfinger__piano-b.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
@@ -334,11 +401,31 @@ public class Pianos
 				frame.getContentPane().add(button_3);
 				
 				JButton btnNewButton = new JButton("F");
+//				btnNewButton.addKeyListener(new KeyAdapter() {
+//					@Override
+//					public void keyPressed(KeyEvent e) {
+//						if (e.getKeyCode() == KeyEvent.VK_A)
+//					    	{
+//					    		System.out.println("f");
+//					    		try {
+//							        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("F.wav").getAbsoluteFile());
+//							        Clip clip = AudioSystem.getClip();
+//							        clip.open(audioInputStream);
+//							        clip.start();
+//							    } catch(Exception ex) {
+//							        System.out.println("Error with playing sound.");
+//							        ex.printStackTrace();
+//							    }
+//					    		
+//					    	}
+//					}
+//				});
 				btnNewButton.setBackground(Color.WHITE);
 				btnNewButton.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.BOLD, 25));
 				btnNewButton.setVerticalAlignment(SwingConstants.BOTTOM);
 				btnNewButton.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
+						
 						try {
 					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("F.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
@@ -360,7 +447,7 @@ public class Pianos
 				btnG.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						try {
-					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("G.wav").getAbsoluteFile());
+					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("68447__pinkyfinger__piano-g.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
 					        clip.open(audioInputStream);
 					        clip.start();
