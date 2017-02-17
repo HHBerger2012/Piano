@@ -401,31 +401,13 @@ public class Pianos
 				frame.getContentPane().add(button_3);
 				
 				JButton btnNewButton = new JButton("F");
-//				btnNewButton.addKeyListener(new KeyAdapter() {
-//					@Override
-//					public void keyPressed(KeyEvent e) {
-//						if (e.getKeyCode() == KeyEvent.VK_A)
-//					    	{
-//					    		System.out.println("f");
-//					    		try {
-//							        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("F.wav").getAbsoluteFile());
-//							        Clip clip = AudioSystem.getClip();
-//							        clip.open(audioInputStream);
-//							        clip.start();
-//							    } catch(Exception ex) {
-//							        System.out.println("Error with playing sound.");
-//							        ex.printStackTrace();
-//							    }
-//					    		
-//					    	}
-//					}
-//				});
 				btnNewButton.setBackground(Color.WHITE);
 				btnNewButton.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.BOLD, 25));
 				btnNewButton.setVerticalAlignment(SwingConstants.BOTTOM);
+				btnNewButton.setBounds(10, 248, 62, 214);
+				frame.getContentPane().add(btnNewButton);
 				btnNewButton.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
-						
 						try {
 					        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("F.wav").getAbsoluteFile());
 					        Clip clip = AudioSystem.getClip();
@@ -437,8 +419,8 @@ public class Pianos
 					    }
 					}
 				});
-				btnNewButton.setBounds(10, 248, 62, 214);
-				frame.getContentPane().add(btnNewButton);
+				
+				
 				
 				JButton btnG = new JButton("G");
 				btnG.setBackground(Color.WHITE);
