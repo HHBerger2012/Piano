@@ -13,11 +13,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.UIManager;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import javax.swing.JTextField;
-import javax.swing.JSlider;
-import javax.swing.JTree;
 
 public class Pianos
 	{
