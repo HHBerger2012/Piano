@@ -65,9 +65,8 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
-						
 					}
 				});
 				btnNewButton_1.setBounds(52, 127, 50, 119);
@@ -83,7 +82,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }				
 					}
 				});
@@ -103,7 +102,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -123,7 +122,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 						
 					}
@@ -145,7 +144,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -165,7 +164,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 						
 					}
@@ -186,7 +185,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 						
 					}
@@ -207,7 +206,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 						
 					}
@@ -228,7 +227,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -248,7 +247,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -268,7 +267,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -291,7 +290,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -311,7 +310,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -331,7 +330,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -351,7 +350,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -372,7 +371,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -392,7 +391,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -414,7 +413,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});
@@ -434,7 +433,7 @@ public class Pianos
 					        clip.start();
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
-					        ex.printStackTrace();
+					        
 					    }
 					}
 				});				
