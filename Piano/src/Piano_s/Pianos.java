@@ -15,11 +15,14 @@ import java.awt.Color;
 import javax.swing.UIManager;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import javax.swing.JTextField;
+import javax.swing.JSlider;
+import javax.swing.JTree;
 
 public class Pianos
 	{
-
 		private JFrame frame;
+		private JTextField txtHenrysPiano;
 		public static void main(String[] args)
 			{
 				EventQueue.invokeLater(new Runnable()
@@ -81,9 +84,7 @@ public class Pianos
 					    } catch(Exception ex) {
 					        System.out.println("Error with playing sound.");
 					        ex.printStackTrace();
-					    }
-						
-					
+					    }				
 					}
 				});
 				btnA_2.setForeground(UIManager.getColor("Button.background"));
@@ -104,7 +105,6 @@ public class Pianos
 					        System.out.println("Error with playing sound.");
 					        ex.printStackTrace();
 					    }
-					
 					}
 				});
 				btnG_2.setForeground(UIManager.getColor("Button.background"));
@@ -250,7 +250,6 @@ public class Pianos
 					        System.out.println("Error with playing sound.");
 					        ex.printStackTrace();
 					    }
-						
 					}
 				});
 				btnB.setBackground(Color.WHITE);
@@ -441,5 +440,14 @@ public class Pianos
 				});				
 				btnG.setBounds(82, 248, 62, 214);
 				frame.getContentPane().add(btnG);
+				
+				txtHenrysPiano = new JTextField();
+				txtHenrysPiano.setBackground(Color.LIGHT_GRAY);
+				txtHenrysPiano.setFont(new Font("Tahoma", Font.BOLD, 25));
+				txtHenrysPiano.setHorizontalAlignment(SwingConstants.CENTER);
+				txtHenrysPiano.setText("Henry's Piano");
+				txtHenrysPiano.setBounds(146, 11, 512, 57);
+				frame.getContentPane().add(txtHenrysPiano);
+				txtHenrysPiano.setColumns(10);
 			}
 	}
